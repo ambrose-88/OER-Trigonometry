@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-radian-measure">
+    <title>Angles and Radian Measure</title>
+    <definition xml:id="def-angle" workspace="2in">
+        <title>Angles</title>
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            An <term>angle</term> is formed by two rays with a common endpoint.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The ray where the angle measurement begins is called the <term>initial side</term>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The ray where the angle measurement ends is called the <term>terminal side</term>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The common endpoint is called the <term>vertex</term> of the angle.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+         <definition xml:id="def-standard-position" workspace="2in">
+            <title>Standard Position of an Angle</title>
+            <statement>
+                <p>
+                    An angle is in <term>standard position</term> if the following two conditions are true.
+                    <ol>
+                        <li>
+                            <p>
+                                The vertex is located at the origin of a coordinate plane.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The initial side lies on the positive <m>x</m>-axis.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+         </definition>
+         <definition xml:id="def-positive-negative-angles" workspace="2in">
+            <title>Positive and Negative Angles</title>
+            <statement>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                An angle is <term>positive</term> if it measures a counterclockwise rotation.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                An angle is <term>negative</term> if it measures a clockwise rotation.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+         </definition>
+<definition xml:id="def-classifying-angles" workspace="3in">
+    <statement>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        An angle whose terminal side lies in Quadrant 1 is called a <term>Quadrant 1 angle.</term>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An angle whose terminal side lies in Quadrant 2 is called a <term>Quadrant 2 angle.</term>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An angle whose terminal side lies in Quadrant 3 is called a <term>Quadrant 3 angle.</term>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An angle whose terminal side lies in Quadrant 4 is called a <term>Quadrant 4 angle.</term>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An angle whose terminal side lies on one of the axes is called a <term>quadrantal angle.</term>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</definition>
+<definition xml:id="def-central-angle" workspace="2in">
+    <title>Central Angles and the Arc It Intercepts</title>
+    <statement>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        A <term>central angle</term> is an angle whose vertex is at the center of a circle.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The arc that lies between the two sides of a central angle is called the <term>arc intercepted by the angle.</term>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</definition>
+<definition xml:id="def-radian-measure">
+    <title>Radian Measure</title>
+    <statement>
+        <p>
+            Consider a circle with radius <m>r</m> whose central angle intercepts an arc of length <m>s</m>. The <term>radian measure</term> of the angle in radians is given by the following formula.
+            <me>\theta = \frac{s}{r}</me>
+        </p>
+    </statement>
+</definition>
+<figure xml:id="fig-radian-measures-1-2-3">
+    <caption>Measuring Angles in Integer Radians</caption>
+    <sidebyside>
+        <figure xml:id="sub-fig-radian-measure-1">
+            <caption><m>\theta=1</m> rad</caption>
+            <image source="../../../assets/1rad.png" width="30%">
+                <shortdescription>A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.</shortdescription>
+            </image>
+        </figure>
+        <figure xml:id="sub-fig-radian-measure-3">
+            <caption><m>\theta=3</m> rad</caption>
+            <image source="../../../assets/3rad.png" width="30%">
+            <shortdescription>A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+<note>
+    <statement>
+        <p>
+            Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down "rad".
+        </p>
+    </statement>
+</note>
+<example xml:id="ex-radian-measure-1" workspace="2in">
+    <statement>
+       <p> A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?</p>
+    </statement>
+</example>
+<example xml:id="ex-radian-measure-2" workspace="2in">  
+    <statement>
+        <p> A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?</p>
+    </statement>
+</example>
+<example xml:id="ex-radian-measure-3" workspace="2in">
+    <statement>
+        <p> What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?</p>
+    </statement>
+</example>
+<theorem xml:id="thm-converting-between-degrees-radians" workspace="2in">
+    <title>Converting Between Degrees and Radians</title>
+    <statement>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        To convert from degrees to radians, multiply the angle by <me>\frac{\pi \text{ rad}}{180^\circ}</me>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To convert from radians to degrees, multiply the angle by <me>\frac{180^\circ}{\pi \text{ rad}}</me>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="ex-convert-degrees-to-radians-1" workspace="2in">
+    <title>Converting from Degrees to Radians</title>
+    <statement>
+        <p> Convert <m>90^\circ</m> to radians. </p>
+    </statement>
+</example>
+<example xml:id="ex-convert-radians-to-degrees-1" workspace="2in">
+    <title>Converting from Radians to Degrees</title>
+    <statement>
+        <p> Convert <m>-\frac{2\pi}{3}</m> radians to degrees. </p>
+    </statement>
+</example>
+
+<table xml:id="table-common-angles">
+    <title>Common Angle Measures</title>
+    <tabular>
+        <row header="yes">
+            <cell>Degrees</cell>
+            <cell><m>0^\circ</m></cell>
+            <cell><m>30^\circ</m></cell>
+            <cell><m>45^\circ</m></cell>
+            <cell><m>60^\circ</m></cell>
+            <cell><m>90^\circ</m></cell>
+            <cell><m>120^\circ</m></cell>
+            <cell><m>135^\circ</m></cell>
+            <cell><m>150^\circ</m></cell>
+            <cell><m>180^\circ</m></cell>
+        </row>
+        <row header="yes">
+            <cell>Radians</cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{\pi}{6}</m></cell>
+            <cell><m>\frac{\pi}{4}</m></cell>
+            <cell><m>\frac{\pi}{3}</m></cell>
+            <cell><m>\frac{\pi}{2}</m></cell>
+            <cell><m>\frac{2\pi}{3}</m></cell>
+            <cell><m>\frac{3\pi}{4}</m></cell>
+            <cell><m>\frac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+        </row>
+        <row header="yes">
+            <cell>Degrees</cell>
+            <cell><m>210^\circ</m></cell>
+            <cell><m>225^\circ</m></cell>
+            <cell><m>240^\circ</m></cell>
+            <cell><m>270^\circ</m></cell>
+            <cell><m>300^\circ</m></cell>
+            <cell><m>315^\circ</m></cell>
+            <cell><m>330^\circ</m></cell>
+            <cell><m>360^\circ</m></cell>
+        </row>
+        <row header="yes">
+            <cell>Radians</cell>
+            <cell><m>\frac{7\pi}{6}</m></cell>
+            <cell><m>\frac{5\pi}{4}</m></cell>
+            <cell><m>\frac{4\pi}{3}</m></cell>
+            <cell><m>\frac{3\pi}{2}</m></cell>
+            <cell><m>\frac{5\pi}{3}</m></cell>
+            <cell><m>\frac{7\pi}{4}</m></cell>
+            <cell><m>\frac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+        </row>
+    </tabular>
+</table>
+<lemma xml:id="lem-drawing-angles-45-degrees">
+    <statement>
+        <p>
+            In order to accurately draw an angle that is a multiple of <m>\frac{\pi}{4}</m> radians (<m>45^\circ</m>), 
+            <ol>
+                <li>we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,</li>
+                <li>we use the number in the numerator to count how many of those sections to include in our angle,</li>
+                <li>and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.</li>
+            </ol>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="ex-drawing-angles-45-degrees" workspace="4in">
+    <title>Drawing an Angle of <m>-\frac{3\pi}{4}</m> Radians</title>
+    <statement>
+        <p> Draw an angle of <m>-\frac{3\pi}{4}</m> radians in standard position. </p>
+    </statement>
+</example>
+<lemma xml:id="lem-drawing-angles-30-degrees">
+    <statement>
+        <p>
+            In order to accurately draw an angle that is a multiple of <m>\frac{\pi}{6}</m> radians (<m>30^\circ</m>), 
+            <ol>
+                <li>we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,</li>
+                <li>we use the number in the numerator to count how many of those sections to include in our angle,</li>
+                <li>and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.</li>
+            </ol>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="ex-drawing-angles-30-degrees" workspace="4in">
+    <title>Drawing an Angle of <m>\frac{11\pi}{6}</m> Radians</title>
+    <statement>
+        <p> Draw an angle of <m>\frac{11\pi}{6}</m> radians in standard position. </p>
+    </statement>
+</example>
+<example xml:id="ex-drawing-angles-negative-30-degrees" workspace="4in">
+    <title>Drawing an Angle of <m>-\frac{5\pi}{3}</m> Radians</title>
+    <statement>
+        <p> Draw an angle of <m>-\frac{5\pi}{3}</m> radians in standard position. </p>
+    </statement>
+</example>
+<definition xml:id="def-coterminal-angles">
+    <statement>
+        <p>
+            Two angles are called <em>coterminal</em> if they share the same initial side and terminal side.
+        </p>
+    </statement>
+</definition>
+<lemma xml:id="lem-coterminal-angles-degrees">
+    <statement>
+        <p>
+            We typically only want to express angles in degrees using an angle measure satisfying <m>0^\circ \le \theta \lt 360^\circ</m> since any angle outside this range is coterminal to an angle within this range.
+            <ul>
+                <li>
+                    <p>
+                        If <m>\theta \ge 360^\circ</m>, we can find a coterminal angle by repeatedly subtracting <m>360^\circ</m> until the result is less than <m>360^\circ</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>\theta \lt 0^\circ</m>, we can find a coterminal angle by repeatedly adding <m>360^\circ</m> until the result is greater than or equal to <m>0^\circ</m>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="ex-coterminal-angles-degrees-1" workspace="2in">
+    <title>Finding a Coterminal Angle in Degrees</title>
+    <statement>
+        <p> Find a coterminal angle <m>\theta</m> for <m>1050^\circ</m> that satisfies <m>0^\circ \le \theta \lt 360^\circ</m>. </p>
+    </statement>
+</example>
+<example xml:id="ex-coterminal-angles-degrees-2" workspace="2in">
+    <title>Finding a Coterminal Angle in Degrees</title>
+    <statement>
+        <p> Find a coterminal angle <m>\theta</m> for <m>-750^\circ</m> that satisfies <m>0^\circ \le \theta \lt 360^\circ</m>. </p>
+    </statement>
+</example>
+<lemma xml:id="lem-coterminal-angles-radians">
+    <statement>
+        <p>
+            We typically only want to express angles in radians using an angle measure satisfying <m>0 \le \theta \lt 2\pi</m> since any angle outside this range is coterminal to an angle within this range.
+            <ul>
+                <li>
+                    <p>
+                        If <m>\theta \ge 2\pi</m>, we can find a coterminal angle by repeatedly subtracting <m>2\pi</m> until the result is less than <m>2\pi</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <m>\theta \lt 0</m>, we can find a coterminal angle by repeatedly adding <m>2\pi</m> until the result is greater than or equal to <m>0</m>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="ex-coterminal-angles-radians-1" workspace="2in">
+    <title>Finding a Coterminal Angle in Radians</title>
+    <statement>
+        <p> Find a coterminal angle for <m>\frac{15\pi}{4}</m> that satisfies <m>0 \le \theta \lt 2\pi</m>. </p>
+    </statement>
+</example>
+<example xml:id="ex-coterminal-angles-radians-2" workspace="2in">
+    <title>Finding a Coterminal Angle in Radians</title>
+    <statement>
+        <p> Find a coterminal angle for <m>-\frac{14\pi}{3}</m> that satisfies <m>0 \le \theta \lt 2\pi</m>. </p>
+    </statement>
+</example>
+<theorem xml:id="thm-arc-length">
+    <title>Arc Length</title>
+    <statement>
+        <p>
+            The length <m>s</m> of an arc intercepted by a central angle with radian measure <m>\theta</m> in a circle of radius <m>r</m> is given by the formula
+            <me>s = r\theta</me>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="ex-arc-length" workspace="4in">
+    <statement>
+        <p> Find the length of an arc intercepted by a central angle measuring <m>\frac{2\pi}{3}</m> radians in a circle with a radius of 9 cm. </p>
+    </statement>
+</example>
+<theorem xml:id="thm-sector-area" workspace="3in">
+    <title>Area of a Sector</title>
+    <statement>
+        <p>
+            The area <m>A</m> of a sector formed by a central angle with radian measure <m>\theta</m> in a circle of radius <m>r</m> is given by the formula
+            <me>A = \frac{1}{2}r^2\theta</me>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="ex-sector-area" workspace="2in">
+    <statement>
+        <p> Find the area of a sector formed by a central angle measuring <m>\frac{\pi}{4}</m> radians in a circle with a radius of 6 in. </p>
+    </statement>
+</example>
+<definition xml:id="def-linear-angular-speed">
+    <title>Linear and Angular Speed</title>
+    <statement>
+        <p>
+            If a point is motion on a circle of radius <m>r</m> through an angle of <m>\theta</m> radians in <m>t</m> time, then its <term>linear speed</term> <m>v</m> is given by the formula
+            <me>v = \frac{s}{t}</me>
+            where <m>s</m> is the length of the arc traveled, and the <term>angular speed</term> <m>\omega</m> of the point is given by the formula
+            <me>\omega = \frac{\theta}{t}</me>
+        </p>
+    </statement>
+    </definition>
+    <example xml:id="ex-converting-to-radian-angular-speed" workspace="6in">
+        <statement>
+            <p> A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second? </p>
+        </statement>
+    </example>
+    <theorem xml:id="thm-linear-speed" workspace="2in">
+        <statement>
+            <p>
+                The linear speed <m>v</m> of a point moving on a circle of radius <m>r</m> with an angular speed of <m>\omega</m> is given by the formula
+                <me>v = r\omega</me>
+                In plain English, the linear speed equals the radius times the angular speed.
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="ex-finding-linear-speed" workspace="2in">
+        <statement>
+            <p>Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm.  Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.</p>
+        </statement>
+    </example>  
+</worksheet>

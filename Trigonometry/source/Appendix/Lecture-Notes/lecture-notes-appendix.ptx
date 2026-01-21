@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Lecture Notes</title>
+<introduction>
+    <p>
+        This section contains all the lecture notes for this textbook.
+    </p>
+</introduction>
+    <xi:include href="./radians.ptx"/>
+    </appendix>
